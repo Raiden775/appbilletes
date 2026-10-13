@@ -1,0 +1,4 @@
+from ultralytics import YOLO
+
+model = YOLO('yolov8n.pt')
+model.train(data='data.yaml', epochs=80, imgsz=640, batch=16, name='euros_yolov8n')

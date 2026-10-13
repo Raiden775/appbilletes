@@ -1,0 +1,5 @@
+train: ../dataset/images/train
+val: ../dataset/images/val
+
+nc: 7
+names: ['EUR_5','EUR_10','EUR_20','EUR_50','EUR_100','EUR_200','EUR_500']
